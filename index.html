@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Igreja - Projeto IC</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+
+        .section {
+            margin-right: 20px;
+            width: 500px;
+        }
+
+        #section1 {
+            border: 1px solid #fcf8e3;
+        }
+
+        #section2 {
+            border: 1px solid #dff0d8;
+        }
+
+        #section3 {
+            border: 1px solid #d9edf7;
+        }
+
+        .header {
+            display: flex;
+            background-color: #222222;
+            padding: 10px;
+        }
+
+        .header-title {
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .subheader {
+            display: flex;
+            background-color: #cccccc;
+            padding: 10px;
+        }
+
+        .subheader-title {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .table-header {
+            padding: 5px;
+        }
+
+        .table-header-title {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        #table-header1 {
+            background-color: #fcf8e3;
+        }
+
+        #table-header2 {
+            background-color: #dff0d8;
+        }
+
+        #table-header3 {
+            background-color: #d9edf7;
+        }
+
+        .button {
+            color: white;
+            padding: 10px 75px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 5px 0px;
+            cursor: pointer;
+        }
+
+        .header-button {
+            color: white;
+            padding: 10px 5px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 5px 0px;
+            cursor: pointer;
+        }
+
+        #b1 {
+            background-color: #d9534f;
+        }
+
+        #b2 {
+            background-color: #f0ad4e;
+        }
+
+        #b3 {
+            background-color: #337ab7;
+        }
+
+        #b4 {
+            background-color: #5cb85c;
+        }
+
+        #b5 {
+            background-color: #5bc0de;
+        }
+
+        #b6 {
+            background-color: #222222;
+        }
+
+        .table-container {
+            margin-bottom: 30px;
+        }
+
+        .table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .table th,
+        .table td {
+            border: 1px solid #cccccc;
+            padding: 8px;
+        }
+
+        .table th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="header-title">Projeto IC</h1>
+        <div class="header-buttons">
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><div class="header-button">Cadastros</div></a>
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><div class="header-button">Pagamentos</div></a>
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><div class="header-button">Top 10</div></a>
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><div class="header-button">Ped. Oração</div></a>
+        </div>
+    </div>
+    <div class="subheader">
+        <h2 class="subheader-title">Minha Igreja</h2>
+    </div>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><div class="button" id="b1">Células</div></a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><div class="button" id="b2">Ped. Oração</div></a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><div class="button" id="b3">Meus dados</div></a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><div class="button" id="b4">Usuários</div></a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><div class="button" id="b5">Config</div></a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><div class="button" id="b6">Agenda</div></a>
+    <div class="container">
+        <div class="section" id="section1">
+            <div class="table-header" id="table-header1">
+                <h3 class="table-header-title">Membros/Usuários (Ativos)</h3>
+            </div>
+            <div class="table-container">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Administradores:</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Líderes:</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>Supervisores:</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Coordenadores:</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-header" id="table-header1">
+                <h3 class="table-header-title">Doações (Mês atual)</h3>
+            </div>
+            <div class="table-container">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Doações realizadas:</td>
+                            <td>R$ 0,00</td>
+                        </tr>
+                        <tr>
+                            <td>Doações aguardando pagamento:</td>
+                            <td>R$ 0,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="table-header" id="table-header2">
+                <h2 class="table-header-title">Reuniões de Célula</h2>
+                <h3 class="table-header-title">Jan à Dez de 2015</h3>
+                <h3 class="table-header-title">Todas as redes</h3>
+            </div>
+            <div class="table-container">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Visitantes não convertidos:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Converções realizadas:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Reconciliações realizadas:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Batismos realizados:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Ofertas com propósito:</td>
+                            <td>R$</td>
+                        </tr>
+                        <tr>
+                            <td>Trab. de Evangelização:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Ação Social:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Visita de Supervisão:</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="table-header" id="table-header3">
+                <h2 class="table-header-title">Cadastros (Ativos)</h2>
+            </div>
+            <div class="table-container">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Usuários:</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>Células:</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>Vídeos:</td>
+                            <td>7</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-header" id="table-header3">
+                <h3 class="table-header-title">Células ativas por Rede</h3>
+            </div>
+            <div class="table-container">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Homens</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Rapazes</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Moças</td>
+                            <td>9</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-header" id="table-header3">
+                <h3 class="table-header-title">Agenda do mês (Jun/2015)</h3>
+            </div>
+            <div class="table-container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Evento:</th>
+                            <th>Data do evento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
