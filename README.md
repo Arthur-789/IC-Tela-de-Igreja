@@ -4,6 +4,6 @@
   
     1. Arthur Roberto Araújo Tavares
     2. Paulo Vinicius da Silva Cardoso
-    3. 
+    3. Vinicius Lopes Rocha
     4. 
     5. 
