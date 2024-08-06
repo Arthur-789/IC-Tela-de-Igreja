@@ -24,27 +24,10 @@ body {
     border: 1px solid #d9edf7;
 }
 
-.header {
-    display: flex;
-    background-color: #222222;
-    padding: 10px;
-}
-
-.header-title {
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-}
-
 .subheader {
     display: flex;
     background-color: #cccccc;
     padding: 10px;
-}
-
-.subheader-title {
-    font-size: 12px;
-    font-weight: bold;
 }
 
 .table-header {
@@ -71,16 +54,6 @@ body {
 .button {
     color: white;
     padding: 10px 75px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 5px 0px;
-    cursor: pointer;
-}
-
-.header-button {
-    color: white;
-    padding: 10px 5px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
