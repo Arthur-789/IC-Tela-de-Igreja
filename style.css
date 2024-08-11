@@ -27,7 +27,8 @@ body {
 .subheader {
     display: flex;
     background-color: #cccccc;
-    padding: 10px;
+    padding: 5px;
+
 }
 
 .table-header {
