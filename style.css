@@ -103,3 +103,7 @@ body {
 .table th {
     background-color: #f2f2f2;
 }
+.hr{
+    background-color: orange;
+    height: 20px;
+}
