@@ -12,12 +12,18 @@ body {
     width: 500px;
 }
 
-#section1 {
-    border: 1px solid #fcf8e3;
+.seq1 {
+    background-color: rgba(255, 166, 0, 0.589);
+    color: rgb(70, 45, 0);
 }
 
-#section2 {
-    border: 1px solid #dff0d8;
+.seq2 {
+    background-color: rgba(21, 255, 0, 0.589);
+    color: rgb(16, 70, 0);
+}
+.seq3 {
+    background-color: rgba(0, 153, 255, 0.589);
+    color: rgb(0, 13, 70);
 }
 
 #section3 {
@@ -44,8 +50,9 @@ body {
     background-color: #fcf8e3;
 }
 
-#table-header2 {
+.table-header2 {
     background-color: #dff0d8;
+    
 }
 
 #table-header3 {
@@ -107,4 +114,26 @@ body {
 .hr{
     background-color: orange;
     height: 20px;
+}
+
+
+.table-custom th {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.table-custom thead{
+    background-color: rgba(255, 255, 0, 0.37);
+}
+.badge-custom {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.375rem;
+    background-color: #6c757d;
+    color: #fff;
 }
